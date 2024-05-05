@@ -1006,42 +1006,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "lab_16_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/denzl/CLionProjects/2sem/19.16/lab_16/cmake-build-debug"
-		},
-		{
-			"name" : "lab_16_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "lab_16_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/denzl/CLionProjects/2sem/19.16/lab_16"
-		},
-		{
 			"name" : "lab_BINARY_DIR",
 			"properties" : 
 			[
