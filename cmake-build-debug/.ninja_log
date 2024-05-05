@@ -1,0 +1,20 @@
+# ninja log v5
+1	217	1714936694992581849	CMakeFiles/lab.dir/libs/data_structures/vector/vector.c.o	e2f462ac4a63874d
+2	218	1714936694992683888	libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.o	f7cb4e33a131bf03
+1	218	1714936694995341066	CMakeFiles/lab.dir/main.c.o	473211492333244c
+1	219	1714936694992683971	CMakeFiles/lab.dir/libs/data_structures/vector/vectorVoid.c.o	8c264d01f90f56a2
+2	220	1714936694995990423	libs/data_structures/CMakeFiles/data_structures.dir/array_set/unordered_array_set.c.o	38243d2fa155eb1b
+1	220	1714936694997063852	CMakeFiles/lab.dir/libs/data_structures/matrix/matrix.c.o	cb431fb9bfc1654e
+220	242	1714936695016612112	libs/algorithms/CMakeFiles/algorithms.dir/algorithm.c.o	eb20bc525fdd77f9
+218	253	1714936695027060744	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.o	37e89fc9872986ad
+220	254	1714936695030994429	libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.o	a837c060d0cea34c
+218	254	1714936695031289046	libs/data_structures/CMakeFiles/data_structures.dir/array_set/ordered_array_set.c.o	2390b688e75662c8
+219	254	1714936695031498748	libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.o	1e7ea11492d34765
+219	261	1714936695038282397	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.o	5a7eb676fb058ad4
+254	272	1714936695051470000	libs/algorithms/libalgorithms.a	404b2f07980d8491
+261	277	1714936695056347000	libs/data_structures/libdata_structures.a	3831cf698c5e415
+277	430	1714936695205375683	lab	b19311bf134a8b1f
+0	205	1714936719947506166	CMakeFiles/lab.dir/main.c.o	473211492333244c
+205	244	1714936719985854038	lab	b19311bf134a8b1f
+1	214	1714936729643127552	CMakeFiles/lab.dir/main.c.o	473211492333244c
+215	252	1714936729680472036	lab	b19311bf134a8b1f
