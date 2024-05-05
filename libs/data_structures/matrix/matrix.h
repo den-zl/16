@@ -65,4 +65,13 @@ matrix createMatrixFromArray(const int *a, size_t nRows, size_t nCols);
 
 matrix *createArrayOfMatrixFromArray(const int *values,size_t nMatrices, size_t nRows, size_t nCols);
 
+
+
+// ----------------------- lab_16 ---------------------------
+
+
+
+void swapRowsByMinMaxElements(matrix m);
+
+
 #endif

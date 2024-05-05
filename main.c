@@ -4,7 +4,7 @@
 #include "libs/data_structures/vector/vector.h"
 #include "libs/data_structures/matrix/matrix.h"
 
-void fillMatrix(matrix *m, int start_value) {
+/* void fillMatrix(matrix *m, int start_value) {
     for (int i = 0; i < (*m).nRows; i++) {
         for (int j = 0; j < (*m).nCols; j++) {
             (*m).values[i][j] = i + j + start_value;
@@ -422,12 +422,23 @@ void test() {
     test_transposeMatrix();
     test_getMinValuePos();
     test_getMaxValuePos();
-}
+} */
 
 int main() {
     srand(time(NULL));
-    test();
 
+    matrix m = createMatrixFromArray(
+            (int[]) {
+                    1, 2, 3,
+                    4, 5, 6,
+                    7, 8, 9,
+            },
+            3, 3
+    );
+    outputMatrix(m);
+    printf("-------------------\n");
+    swapRowsByMinMaxElements(m);
+    outputMatrix(m);
 
     return 0;
 }
