@@ -71,3 +71,8 @@
 6	212	1715022978344174801	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.o	5a7eb676fb058ad4
 212	235	1715022978368630000	libs/data_structures/libdata_structures.a	3831cf698c5e415
 235	404	1715022978530031712	lab	b19311bf134a8b1f
+2	199	1715025532476788093	CMakeFiles/lab.dir/main.c.o	473211492333244c
+2	210	1715025532488892151	CMakeFiles/lab.dir/libs/data_structures/matrix/matrix.c.o	cb431fb9bfc1654e
+2	210	1715025532488853069	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.o	5a7eb676fb058ad4
+210	230	1715025532510902000	libs/data_structures/libdata_structures.a	3831cf698c5e415
+230	394	1715025532670879800	lab	b19311bf134a8b1f

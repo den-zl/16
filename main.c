@@ -427,25 +427,19 @@ void test() {
 int main() {
     srand(time(NULL));
 
-    /* matrix m1 = createMatrixFromArray(
+    matrix m1 = createMatrixFromArray(
             (int[]) {
-                    8, 3, 4,
-                    1, 6, 1,
-                    12, 1, 1,
+                    8, 3, 2,
+                    9, 1, 4,
+                    7, 5, 9,
             },
             3, 3
-    ); */
+    );
 
-    int matrixes[] = {7, 1, 1, 1,
-                      1, 6, 2, 2,
-                      5, 3, 2, 3,
-                      1, 3, 7, 9};
-
-    matrix *ms = createArrayOfMatrixFromArray(matrixes, 4, 2, 2);
-
+    outputMatrix(m1);
     printf("-------------------\n");
-    int res = countNonDescendingRowsMatrices(ms ,4);
-    printf("%d", res);
+    swapPenultimateRow(m1, 3);
+    outputMatrix(m1);
 
     return 0;
 }
