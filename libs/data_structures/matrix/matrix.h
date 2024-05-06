@@ -94,5 +94,9 @@ long long findSumOfMaxesOfPseudoDiagonal(matrix m);
 
 int getMinInArea(matrix m, matrix m_area);
 
+int cmp_long_long(const void *pa, const void *pb);
+int countNUnique(long long *a, int n);
+int countEqClassesByRowsSum(matrix m);
+
 
 #endif

@@ -578,3 +578,38 @@ int getMinInArea(matrix m, matrix m_area) {
     }
     return min;
 }
+
+
+int cmp_long_long(const void *pa, const void *pb) {
+    return (long long) pa == (long long) pb;
+}
+
+int countNUnique(long long *a, int n) {
+    int counter = 0;
+    long long res = 0;
+
+    for (int i = 0; i < n; i++) {
+        res = cmp_long_long((const void *) a[i + 1], (const void *)a[i]);
+
+        if (!res) {
+            counter++;
+        }
+    }
+    return counter;
+}
+
+int countEqClassesByRowsSum(matrix m) {
+    long long arr[m.nRows];
+
+    for (int i = 0; i < m.nRows; i++) {
+        long long sum = 0;
+        for (int j = 0; j < m.nCols; j++) {
+            sum += m.values[i][j];
+        }
+        arr[i] = sum;
+    }
+    qsort(&arr, m.nRows, sizeof(long long), compare);
+    int res = countNUnique(arr, m.nRows);
+
+    return res;
+}
