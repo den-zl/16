@@ -91,6 +91,10 @@ matrix createIdentityMatrix(size_t nRows, size_t nCols);
 int max(int a, int b);
 long long findSumOfMaxesOfPseudoDiagonal(matrix m);
 
+float getDistance(int *a, int n);
+void insertionSortRowsMatrixByRowCriteriaF(matrix m, float (*criteria)(int *, int));
+void sortByDistances(matrix m);
+
 int getMinInArea(matrix m, matrix m_area);
 
 int cmp_long_long(const void *pa, const void *pb);
