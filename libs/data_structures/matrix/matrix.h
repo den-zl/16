@@ -91,12 +91,13 @@ matrix createIdentityMatrix(size_t nRows, size_t nCols);
 int max(int a, int b);
 long long findSumOfMaxesOfPseudoDiagonal(matrix m);
 
-
 int getMinInArea(matrix m, matrix m_area);
 
 int cmp_long_long(const void *pa, const void *pb);
 int countNUnique(long long *a, int n);
 int countEqClassesByRowsSum(matrix m);
+
+int getNSpecialElement(matrix m);
 
 
 #endif
