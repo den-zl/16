@@ -461,8 +461,8 @@ void sortColsByMinElement(matrix m) {
 
         int sum = getMin(col, m.nRows);
         arr[i] = sum;
-        selectionSortBySumCols(arr, &m);
     }
+    selectionSortBySumCols(arr, &m);
 }
 
 

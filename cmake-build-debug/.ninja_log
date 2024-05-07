@@ -14,3 +14,12 @@
 1	215	1714938473383410684	libs/data_structures/CMakeFiles/data_structures.dir/array_set/unordered_array_set.c.o	38243d2fa155eb1b
 5	213	1715075837983386564	CMakeFiles/lab.dir/main.c.o	473211492333244c
 215	239	1714938473404940613	libs/algorithms/CMakeFiles/algorithms.dir/algorithm.c.o	eb20bc525fdd77f9
+5	224	1715082887492670492	CMakeFiles/lab.dir/main.c.o	473211492333244c
+6	234	1715082887504183600	CMakeFiles/lab.dir/libs/data_structures/matrix/matrix.c.o	cb431fb9bfc1654e
+6	234	1715082887504182850	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.o	5a7eb676fb058ad4
+234	255	1715082887527188000	libs/data_structures/libdata_structures.a	3831cf698c5e415
+255	427	1715082887695083316	lab	b19311bf134a8b1f
+1	205	1715082900473593044	CMakeFiles/lab.dir/main.c.o	473211492333244c
+206	244	1715082900511073463	lab	b19311bf134a8b1f
+0	53	1715082907106790144	CMakeFiles/lab.dir/main.c.o	473211492333244c
+53	87	1715082907140847859	lab	b19311bf134a8b1f
